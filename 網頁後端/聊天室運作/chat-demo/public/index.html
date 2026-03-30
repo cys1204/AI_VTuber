@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>聊天室 Demo</title>
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <h3>聊天室</h3>
+  <div id="chat" style="width:100%;height:300px;border:1px solid #ccc;overflow-y:scroll;padding:5px;white-space:pre-wrap;"></div>
+
+  <h3>LLM 回覆測試區</h3>
+  <div id="llm-replies" style="width:100%;height:150px;border:1px solid #aaa;overflow-y:scroll;padding:5px;white-space:pre-wrap;background-color:#f9f9f9;"></div>
+
+  <input id="username" placeholder="你的名字" />
+  <input id="message" placeholder="輸入訊息" />
+  <button id="send">送出</button>
+
+  <script src="client.js"></script>
+</body>
+</html>
